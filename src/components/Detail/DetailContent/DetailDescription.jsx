@@ -10,7 +10,7 @@ const Wrapper = styled("div")({
   position: "relative",
   top: "15%",
   left: "5%",
-  "@media(max-width:790px)": {
+  "@media(max-width:700px)": {
     top: "0",
   },
 });
@@ -51,7 +51,7 @@ const Bottom = ({ description }) => {
 };
 
 export default function DetailDescription({ currentEvent }) {
-  console.log(currentEvent);
+  // console.log(currentEvent);
   const midItemDetail = {
     Name: currentEvent.Name,
     Location: currentEvent.Location,

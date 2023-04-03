@@ -27,7 +27,7 @@ const filterData = (data, filter) => {
 
 function EventList({ currentEvent, eventData, filter }) {
   const filteredData = filterData(eventData, filter);
-  console.log(filteredData);
+  // console.log(filteredData);
   return (
     <Wrapper>
       {filteredData.length === 0 ? (

@@ -8,7 +8,7 @@ const LabeledInput = ({ child, setFilter, parent, filter }) => {
       setChecked(filter.Gender.includes(child));
     }
     if (parent === "Location") {
-      console.log("hey", filter.Location.includes(child));
+      // console.log("hey", filter.Location.includes(child));
       setChecked(filter.Location.includes(child));
     }
   }, [parent, child, filter]);
@@ -46,7 +46,7 @@ const LabeledInput = ({ child, setFilter, parent, filter }) => {
           };
       });
     }
-    console.log(checked);
+    // console.log(checked);
   };
   return (
     <>

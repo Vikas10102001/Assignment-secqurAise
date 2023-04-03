@@ -18,7 +18,7 @@ const ImageContainer = styled("img")({
   },
 });
 export default function DetailImage({ imageName }) {
-  console.log(imageName);
+  // console.log(imageName);
   const [imageUrl, setImageUrl] = useState(null);
   const [loading, setLoading] = useState(false);
   useEffect(() => {

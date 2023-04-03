@@ -22,7 +22,7 @@ export default function BasicMenu({ setFilter, filter }) {
     let formatDate = filterDate.split("-").reverse();
     formatDate[2] = formatDate[2][2] + formatDate[2][3];
     formatDate = formatDate.join("-");
-    console.log(formatDate);
+    // console.log(formatDate);
 
     setFilter((prevState) => {
       return { ...prevState, Date: formatDate };
